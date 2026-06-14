@@ -24,6 +24,7 @@ st.set_page_config(
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="collapsed"
+    theme="light"
 )
 # Imagen de cabecera (lazo rosa)
 col_logo, col_title = st.columns([1, 5])
