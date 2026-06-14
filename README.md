@@ -67,7 +67,7 @@ breast-cancer-predictor/
     source venv/bin/activate        # Linux/Mac
     pip install -r requirements.txt
     streamlit run app.py
-```
+
 ---
 
 ## Referencias 
