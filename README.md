@@ -68,7 +68,7 @@ breast-cancer-predictor/
     pip install -r requirements.txt
     streamlit run app.py
 ```
-Referencias
+``` Referencias
 
     Dataset: Wisconsin Diagnostic Breast Cancer (WDBC) – UCI Machine Learning Repository
 
@@ -76,12 +76,11 @@ Referencias
 
 
 
-```markdown
-##  Autor
+##👤 Autor
 
 **Kevin Yael Oseguera Reyes**  
 [kevinose1666@gmail.com](mailto:kevinose1666@gmail.com)  
 [LinkedIn](https://www.linkedin.com/in/-osegukevin3b0) | [GitHub](https://github.com/koseguera-r)
 
 ---
- *Si este proyecto te ha sido útil, no olvides darle una estrella.*```
+ *Si este proyecto te ha sido útil, no olvides darle una estrella.*
