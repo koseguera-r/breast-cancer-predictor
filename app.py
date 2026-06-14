@@ -23,7 +23,7 @@ st.set_page_config(
     page_title="OncoPredict · Cáncer de Mama",
     page_icon="🔬",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="collapsed",
     theme="light"
 )
 # Imagen de cabecera (lazo rosa)
