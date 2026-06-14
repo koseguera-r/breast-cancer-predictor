@@ -44,3 +44,44 @@ El modelo es **interpretable** y proporciona una probabilidad de malignidad, lo 
 - **Aplicación web** con Streamlit
 
 ##  Estructura del repositorio
+```text
+breast-cancer-predictor/
+├── app.py # Aplicación interactiva con Streamlit
+├── 03_modelado_logistico.py # Entrenamiento y selección de variables
+├── modelo_final.pkl # Modelo serializado
+├── scaler_final.pkl # Escalador (StandardScaler)
+├── variables_finales.txt # Lista de las 4 variables seleccionadas
+├── assets/ # Imágenes (opcional)
+├── requirements.txt # Dependencias
+└── README.md
+```
+
+##  Cómo ejecutar localmente
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/koseguera-r/breast-cancer-predictor.git
+   cd breast-cancer-predictor
+
+    python -m venv venv
+    source venv/bin/activate        # Linux/Mac
+    pip install -r requirements.txt
+    streamlit run app.py
+```
+Referencias
+
+    Dataset: Wisconsin Diagnostic Breast Cancer (WDBC) – UCI Machine Learning Repository
+
+    Wolberg, W. H., Street, W. N., & Mangasarian, O. L. (1995). Machine learning techniques to diagnose breast cancer from fine‑needle aspirates.```
+
+
+
+```markdown
+##  Autor
+
+**Kevin Yael Oseguera Reyes**  
+[kevinose1666@gmail.com](mailto:kevinose1666@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/-osegukevin3b0) | [GitHub](https://github.com/koseguera-r)
+
+---
+ *Si este proyecto te ha sido útil, no olvides darle una estrella.*```
