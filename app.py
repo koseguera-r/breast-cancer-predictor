@@ -24,7 +24,6 @@ st.set_page_config(
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="collapsed",
-    theme="light"
 )
 # Imagen de cabecera (lazo rosa)
 col_logo, col_title = st.columns([1, 5])
@@ -37,38 +36,7 @@ with col_title:
 config_plotly = {'displayModeBar': False}
 st.markdown("""
 <style>
-    .main {
-        background-color: #FFF5F7;
-        font-family: 'Segoe UI', 'Roboto', sans-serif;
-    }
-    /* Fondo y tipografía */
-    .stApp, .stAppViewContainer, .stMainBlockContainer {
-        background-color: #FFF5F7;
-    }
-    h1, h2, h3 {
-        color: #831843;
-    }
-    /* Títulos principales de Streamlit */
-    h1, h2, h3,
-    .stMarkdown h1,
-    .stMarkdown h2,
-    .stMarkdown h3,
-    .stTitle h1,
-    .stSubheader h3 {
-        color: #831843 !important;
-    }
-        /* Para st.title (h1) */
-    h1 {
-        color: #831843 !important;
-    }
-    /* Para st.subheader (h3) */
-    h3 {
-        color: #831843 !important;
-    }
-    /* Para st.header (h2) */
-    h2 {
-        color: #831843 !important;
-    }
+    /* Botón rosa (no afecta texto) */
     .stButton > button {
         background-color: #E83E8C !important;
         color: white !important;
@@ -80,6 +48,7 @@ st.markdown("""
     .stButton > button:hover {
         background-color: #C2185B !important;
     }
+    /* Tarjetas de diagnóstico (solo fondo y borde, no texto) */
     .diagnostico-benigno {
         background-color: #E6F7F0;
         border-left: 8px solid #2E86AB;
@@ -94,27 +63,15 @@ st.markdown("""
     }
     .disclaimer {
         font-size: 0.7rem;
-        color: #6c757d;
         text-align: center;
         margin-top: 2rem;
-        border-top: 1px solid #F9A8D4;
+        border-top: 1px solid #ccc;
         padding-top: 0.8rem;
-    }
-    .stAlert {
-        background-color: #FCE4EC;
-        color: #831843;
-    }
-    .reportview-container .markdown-text-container {
-        color: #2D2D2D;
-    }
-            
-    .stMarkdown {
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
     }
 </style>
 """, unsafe_allow_html=True)
+
+
 # ==================================================
 # CARGA DE MODELO, ESCALADOR Y VARIABLES
 # ==================================================
