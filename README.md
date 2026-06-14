@@ -68,15 +68,16 @@ breast-cancer-predictor/
     pip install -r requirements.txt
     streamlit run app.py
 ```
-``` Referencias
+```text
 
     Dataset: Wisconsin Diagnostic Breast Cancer (WDBC) – UCI Machine Learning Repository
 
-    Wolberg, W. H., Street, W. N., & Mangasarian, O. L. (1995). Machine learning techniques to diagnose breast cancer from fine‑needle aspirates.```
+    Wolberg, W. H., Street, W. N., & Mangasarian, O. L. (1995). Machine learning techniques to diagnose breast cancer from fine‑needle aspirates.
+```
 
 
 
-##👤 Autor
+## 👤 Autor
 
 **Kevin Yael Oseguera Reyes**  
 [kevinose1666@gmail.com](mailto:kevinose1666@gmail.com)  
