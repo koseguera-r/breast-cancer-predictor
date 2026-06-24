@@ -69,6 +69,11 @@ breast-cancer-predictor/
     streamlit run app.py
 
 ---
+## 🚀 Aplicación en vivo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](breast-cancer-predictor-cdtehfmkhed3btdxpqzbmv.streamlit.app)
+
+Puedes probar la herramienta aquí: [OncoPredict en vivo](breast-cancer-predictor-cdtehfmkhed3btdxpqzbmv.streamlit.app)
 
 ## Referencias 
 
